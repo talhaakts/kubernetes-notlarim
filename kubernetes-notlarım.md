@@ -1,4 +1,4 @@
-
+##  kubectl-command-notes
 
 #podları listeler
 kubectl get pods 
