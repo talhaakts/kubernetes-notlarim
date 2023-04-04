@@ -24,3 +24,5 @@ varolan pod'u silmemizi sağlar
 varolan node'u silmemizi sağlar
 #kubectl delete node nodename
 
+replica set değişikliklerini güncellememizi sağlar
+#kubectl replace -f xxx.yaml
