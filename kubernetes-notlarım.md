@@ -24,5 +24,19 @@ varolan pod'u silmemizi sağlar
 varolan node'u silmemizi sağlar
 #kubectl delete node nodename
 
+replica set oluşturmamızı sağlar
+#kubectl create -f xxx.yaml
+
+varolan replicasetlerimizi listeler
+#kubectl get replicaset
+
+replica setleri silmemizi sağlar | replica set altında çalışan tüm podlar silinir
+#kubectl delete replicaset myapp-xxx 
+
 replica set değişikliklerini güncellememizi sağlar
-#kubectl replace -f xxx.yaml
+#kubectl replace -f xxx.yam
+
+terminal üzerinden yaml dosyamızı modify etmemizi sağlar
+#kubectl scale --replicas=6 -f xxx.yaml
+
+
